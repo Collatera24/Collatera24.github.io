@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  padding: 10px 0;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  background: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.cover-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.intro-text h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.intro-text p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#features, #about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature {
+  margin: 20px 0;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.team {
+  list-style: none;
+  padding: 0;
+}
+
+.team li {
+  margin: 10px 0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  
+}
